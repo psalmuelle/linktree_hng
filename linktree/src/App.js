@@ -18,46 +18,46 @@ function App() {
     <div className="App">
 
       <header>
-      <div>
-        <img src={images["me.jpeg"]} alt="Erinle Samuel"/>
+      <div id='profile_id--container'>
+        <img id='profile_id' src={images["me.jpeg"]} alt="Erinle Samuel"/>
       </div>
       <h1>Erinle Samuel</h1>
 
       <div>
-        <img src={images["share_icon"]} alt="Share"/>{/* Share icons changes to 3dots on smaller screen */}
+        <img src={images["share_Icon.svg"]} alt="Share"/>{/* Share icons changes to 3dots on smaller screen */}
       </div>
       
       </header>
 
 
       <main>
-    <div>
-      <a href='#' target="_blank">Slack Link</a>
+    <div className='link_container'>
+      <a id='twitter' href='#' target="_blank">Twitter Link</a>
+    </div>
+
+    <div className='link_container' hidden >
+      <a id='slack' href='#' target="_blank">Slack Link</a>
     </div>   
 
-    <div>
-      <a href='#' target="_blank">Twitter Link</a>
-    </div>
+    <button id='btn_zuri' className='link_btn'>
+      <a href='https://training.zuri.team/' target="_blank">Zuri Team</a>
+    </button>
 
-    <div>
-      <a href='#' target="_blank">Zuri Team</a>
-    </div>
+    <button id='books' className='link_btn'>
+      <a href='http://books.zuri.team/' target="_blank">Zuri Books</a>
+    </button>
 
-    <div>
-      <a href='#' target="_blank">Zuri Books</a>
-    </div>
+    <button id='book_python' className='link_btn'>
+      <a href='https://books.zuri.team/python-for-beginners?ref_id=erinle_sam' target="_blank">Python Books</a>
+    </button>
 
-    <div>
-      <a href='#' target="_blank">Python Books</a>
-    </div>
+    <button id='pitch' className='link_btn'>
+      <a href='https://background.zuri.team/' target="_blank">Checkout Top-notch Coders</a>
+    </button>
 
-    <div>
-      <a href='#' target="_blank">Background Check for Coders</a>
-    </div>
-
-    <div>
-      <a href='#' target="_blank">Design Books</a>
-    </div>
+    <button id='book_design' className='link_btn'>
+      <a href='https://books.zuri.team/design-rules' target="_blank">Design Books</a>
+    </button>
 
     <figure>
       <img src={images["slack_icon.svg"]} alt="slack"/>
