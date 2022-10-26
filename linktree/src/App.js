@@ -27,7 +27,7 @@ document.title = "hng_task"
       <h2 id='slack' hidden >erinle_sam</h2>
 
       <div id='share__container' title='Share Link' onClick={()=> setShareIcon((prev)=>{
-      return  prev == images["share_Icon.svg"]? images["3-dots_icon.svg"]: images["share_Icon.svg"]
+      return  prev === images["share_Icon.svg"]? images["3-dots_icon.svg"]: images["share_Icon.svg"]
       } )}>
         <img src={shareIcon} alt="Share"/>
       </div>

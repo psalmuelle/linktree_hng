@@ -118,6 +118,9 @@ footer div{
 .App{
   padding: 4.5% 0;  
 }
+#share__container{
+  right: 8%;
+}
 .link__btn a{
   padding: 20px 0px;
 }
