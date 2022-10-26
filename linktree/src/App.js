@@ -24,7 +24,7 @@ document.title = "hng_task"
       <h2 id='slack' hidden>erinle_sam</h2>
 
       <div id='share__container' title='Share Link'>
-        <img src={images["share_Icon.svg"]} alt="Share"/>{/* Share icons changes to 3dots on smaller screen */}
+        <img src={images["share_Icon.svg"]} alt="Share"/>
       </div>
       
       </header>
