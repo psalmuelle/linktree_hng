@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react'
+import React, {useEffect, useState} from 'react'
 import './App.css';
 
 function importAll(r){
@@ -11,20 +11,25 @@ const images = importAll(require.context('./images', false, /\.(png|jpe?g|svg)$/
 
 
 function App() {
+  const [shareIcon, setShareIcon] = useState(images["share_Icon.svg"])
   useEffect(()=>{
 document.title = "hng_task"
-
   })
   return (
     <div className="App">
 
       <header>
+        <div id='profile__img--container'>
         <img id='profile__img' src={images["me.jpeg"]} alt="Erinle Samuel"/>
+        <figure id="camera__icon"><img src={images["camera_icon.svg"]} alt="change icon"/></figure>
+        </div>
       <h1 id='twitter'>Erinle Samuel</h1>
-      <h2 id='slack' hidden>erinle_sam</h2>
+      <h2 id='slack' hidden >erinle_sam</h2>
 
-      <div id='share__container' title='Share Link'>
-        <img src={images["share_Icon.svg"]} alt="Share"/>
+      <div id='share__container' title='Share Link' onClick={()=> setShareIcon((prev)=>{
+      return  prev == images["share_Icon.svg"]? images["3-dots_icon.svg"]: images["share_Icon.svg"]
+      } )}>
+        <img src={shareIcon} alt="Share"/>
       </div>
       
       </header>
