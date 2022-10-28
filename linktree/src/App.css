@@ -72,17 +72,17 @@ main{
   padding: 0px 32px 0px 32px;
   margin-top: 24px;
 }
-.link__btn{
+ #twitter__link, #btn__zuri, #books, #book__python, #pitch, #book__design{
   display: block;
   border-radius: 4px;
   border: none;
   background: #EAECF0;
   
 }
-.link__btn:hover{
+#twitter__link:hover, #btn__zuri:hover, #books:hover, #book__python:hover, #pitch:hover, #book__design:hover{
   background-color: rgba(208, 213, 221, 1);
 }
-.link__btn a{
+ a{
   display: inline-block;
   font-size: 18px;
   color: #101828;
@@ -121,7 +121,7 @@ footer div{
 #share__container{
   right: 8%;
 }
-.link__btn a{
+a{
   padding: 20px 0px;
 }
 footer{

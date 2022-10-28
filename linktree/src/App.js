@@ -37,29 +37,27 @@ document.title = "hng_task"
 
       <main>
     
-    <button id='twitter__link' className='link__btn'>
-      <a  href='https://twitter.com/erinle_sam' target="_blank" rel='noreferrer'>Twitter Link</a>
-    </button>
+    
+      <a id='twitter__link'  href='https://twitter.com/erinle_sam' target="_blank" rel='noreferrer'>Twitter Link</a>
 
-    <button id='btn__zuri' className='link__btn'>
-      <a href='https://training.zuri.team/' target="_blank" rel='noreferrer'>Zuri Team</a>
-    </button>
+    
+      <a id='btn__zuri' href='https://training.zuri.team/' target="_blank" rel='noreferrer'>Zuri Team</a>
+  
 
-    <button id='books' className='link__btn'>
-      <a href='http://books.zuri.team/' target="_blank" rel='noreferrer'>Zuri Books</a>
-    </button>
+  
+      <a id='books' href='http://books.zuri.team/' target="_blank" rel='noreferrer'>Zuri Books</a>
+   
 
-    <button id='book__python' className='link__btn'>
-      <a href='https://books.zuri.team/python-for-beginners?ref_id=erinle_sam' target="_blank" rel='noreferrer'>Python Books</a>
-    </button>
 
-    <button id='pitch' className='link__btn'>
-      <a href='https://background.zuri.team/' target="_blank" rel='noreferrer'>Checkout Top-notch Coders</a>
-    </button>
+      <a id='book__python' href='https://books.zuri.team/python-for-beginners?ref_id=erinle_sam' target="_blank" rel='noreferrer'>Python Books</a>
 
-    <button id='book__design' className='link__btn'>
-      <a href='https://books.zuri.team/design-rules' target="_blank" rel='noreferrer'>Design Books</a>
-    </button>
+  
+      <a id='pitch' href='https://background.zuri.team/' target="_blank" rel='noreferrer'>Checkout Top-notch Coders</a>
+ 
+
+ 
+      <a id='book__design' href='https://books.zuri.team/design-rules' target="_blank" rel='noreferrer'>Design Books</a>
+
 
     <figure id='social__icons'>
       <img src={images["slack_icon.svg"]} alt="slack"/>
