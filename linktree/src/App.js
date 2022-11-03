@@ -1,4 +1,5 @@
 import React, {useEffect, useState} from 'react'
+import {Link} from "react-router-dom"
 import './App.css';
 
 function importAll(r){
@@ -58,6 +59,8 @@ document.title = "hng_task"
  
       <a id='book__design' href='https://books.zuri.team/design-rules' target="_blank" rel='noreferrer'>Design Books</a>
 
+
+      <Link to="/contact" id="contact">Contact Me</Link>
 
     <figure id='social__icons'>
       <img src={images["slack_icon.svg"]} alt="slack"/>
