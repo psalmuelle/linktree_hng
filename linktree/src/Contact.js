@@ -2,17 +2,23 @@ import React from "react";
 import "./Contact.css"
 import zuriLogo from "./images/zuri_logo.svg"
 import i4gLogo from "./images/I4G_logo.svg"
-
+import {useNavigate} from "react-router-dom"
 
 export default function Contact(){
   const name = "Erinle Samuel"
+const navigate = useNavigate()
+  const handleSubmit=(e)=>{
+e.preventDefault()
+alert("Message Sent Successfully!")
+navigate("/")
+  }
     return(
         <div className="container">
             <header>
                 <h1>Contact Me</h1>
                 <p>Hi there, contact me to ask me about anything you have in mind.</p>
             </header>
-            <form>
+            <form onSubmit={handleSubmit}>
               <div className="name">
               <div className="input__container">
                 <label htmlFor="first_name">First name</label>
