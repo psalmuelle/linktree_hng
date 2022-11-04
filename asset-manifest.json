@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/linktree_hng/static/css/main.0a7f5046.css",
+    "main.js": "/linktree_hng/static/js/main.9b6ac575.js",
+    "static/media/me.jpeg": "/linktree_hng/static/media/me.4d9f0faa1f465e926a97.jpeg",
+    "static/media/I4G_logo.svg": "/linktree_hng/static/media/I4G_logo.601ff0479d970c740e8b7d7ba7821548.svg",
+    "static/media/zuri_logo.svg": "/linktree_hng/static/media/zuri_logo.0f8c3aa843c87d1f28aa0826858bd0ef.svg",
+    "static/media/slack_icon.svg": "/linktree_hng/static/media/slack_icon.6fa75d08a444264c6439.svg",
+    "static/media/camera_icon.svg": "/linktree_hng/static/media/camera_icon.6317244a5381be929492.svg",
+    "static/media/github_icon.svg": "/linktree_hng/static/media/github_icon.6a40f212828370260b88.svg",
+    "static/media/3-dots_icon.svg": "/linktree_hng/static/media/3-dots_icon.6939a531933a49e19b58.svg",
+    "static/media/share_Icon.svg": "/linktree_hng/static/media/share_Icon.e3f81b496e21f13d5427.svg",
+    "index.html": "/linktree_hng/index.html",
+    "main.0a7f5046.css.map": "/linktree_hng/static/css/main.0a7f5046.css.map",
+    "main.9b6ac575.js.map": "/linktree_hng/static/js/main.9b6ac575.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0a7f5046.css",
+    "static/js/main.9b6ac575.js"
+  ]
+}
